@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gran Hotel Coral</title>
+
+<style>
+body{font-family:Arial;margin:0;background:#f4f4f4}
+header{background:#8b1c1c;color:#fff;padding:20px;text-align:center}
+section{background:#fff;margin:10px;padding:15px;border-radius:8px}
+h2,h3{color:#8b1c1c;margin:6px 0}
+.ok{background:#e8f5e9;border-left:6px solid #4caf50}
+.alert{background:#fff3cd;border-left:6px solid #ff9800}
+.option{padding:6px;border-bottom:1px solid #eee}
+.option small{display:block;color:#555;margin-left:22px}
+button{width:100%;padding:14px;border:none;border-radius:8px;font-size:16px;margin-top:10px}
+.green{background:#28a745;color:#fff}
+.gray{background:#555;color:#fff}
+textarea{width:100%;padding:8px;margin-top:6px}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Gran Hotel Coral</h1>
+<p>Bienvenidos a Popayán EQUIPO DE TRABAJO GRAN HOTEL CORAL y WAYKU RESTAURANTE GOURMET los recibe con el mayor gusto. 
+ Estimado huesped, es usted para nosotros la prioridad, por ello queremos facilitar su estancia en popayan y  GRAN HOTEL CORAL, En esta pagina podra: hacer pedido de desayunos, pedidos de minibar, comunicarse con recepcion; administracion, solicitar recogida de transporte, dentro o fuera de la ciudad (con anticipacion), solicitar guia turistico(con anticipacion)en el link tour cauca, podra conocer los lugares turisticos de interes de Popayán y el Cauca. 
+Que esta estancia se convierta en un recuerdo y una experiencia UNICA, estamos para servirte. </p>
+</header>
+
+<section class="ok">
+<h2>¿Tiene alguna inquietud?</h2>
+<p>Comuníquese directamente con recepción.</p>
+
+<button class="green"
+onclick="window.open('https://wa.me/573136245136?text=Hola, tengo una inquietud como huésped del Gran Hotel Coral','_blank')">
+📞 Tengo una inquietud
+</button>
+</section>
+
+<section class="ok">
+<h2>Wi-Fi</h2>
+<p><b>Redes:</b> GRAN HOTEL CORAL / Salon_Eventos / Segundo_piso / Tercer_piso305</p>
+<p><b>Clave:</b> coral105</p>
+</section>
+
+<section class="alert">
+<h2>Información importante</h2>
+<ul>
+<li><b>Check-out:</b> 12:00 medio día</li>
+<li>Después de 12:00 → $20.000 por hora</li>
+<li>Después de 3:00 pm → noche completa</li>
+<li><b>Desayuno:</b> 7:00 am – 9:00 am (comedor primer piso)</li>
+<li>Si debe salir temprano, solicitar el desayuno con anticipación o la noche anterior</li>
+</ul>
+</section>
+
+<section class="alert">
+<h2>Importante – Desayuno</h2>
+
+<label>
+<input type="checkbox">
+✔ Mi tarifa <b>INCLUYE desayuno</b>
+</label>
+
+<p>
+Si su tarifa <b>NO incluye desayuno</b>, deberá cancelar el valor del desayuno seleccionado.
+</p>
+
+<p>
+Esta información debió ser indicada al huésped al momento del <b>check-in</b>.
+</p>
+</section>
+ 
+<section>
+<h2>Desayunos (incluidos en tarifa)</h2>
+<p><b>Incluye:</b> Jugo <b>o</b> fruta + bebida caliente</p>
+
+<h3>Seleccione su opción</h3>
+
+<label class="option">
+  <input type="checkbox" name="desayuno" value="Opción 1 – Desayuno americano">
+  Opción 1 – Desayuno americano
+  <small>Huevos al gusto, pan o arepa o tajadas de maduro, arroz</small>
+</label>
+
+<label class="option">
+  <input type="checkbox" name="desayuno" value="Opción 2 – Sándwich jamón y queso">
+  Opción 2 – Sándwich jamón y queso
+  <small>Huevos al gusto</small>
+</label>
+
+<label class="option">
+  <input type="checkbox" name="desayuno" value="Opción 3 – Wrap jamón y queso">
+  Opción 3 – Wrap jamón y queso
+  <small>Porción de fruta pequeña</small>
+</label>
+
+<label class="option">
+  <input type="checkbox" name="desayuno" value="Opción 4 – Yogurt o leche">
+  Opción 4 – Yogurt o leche
+  <small>Granola o cereal y pan tostado</small>
+</label>
+
+<label class="option">
+  <input type="checkbox" name="desayuno" value="Opción 5 – Tamal de pipián">
+  Opción 5 – Tamal de pipián
+  <small>Pan tostado y arroz</small>
+</label>
+
+<label class="option">
+  <input type="checkbox" name="desayuno" value="Opción 6 – Calentado de fríjoles">
+  Opción 6 – Calentado de fríjoles
+  <small>Tajadas de maduro y huevo</small>
+</label>
+
+<label class="option">
+  <input type="checkbox" name="desayuno" value="Opción 7 – Omelette">
+  Opción 7 – Omelette
+  <small>Jamón y queso / maicitos / vegetales / pollo</small>
+</label>
+
+
+<h3>Bebida caliente</h3>
+<label class="option">
+  <input type="checkbox" name="bebida" value="Café"> Café
+</label>
+
+<label class="option">
+  <input type="checkbox" name="bebida" value="Café con leche"> Café con leche
+</label>
+
+<label class="option">
+  <input type="checkbox" name="bebida" value="Chocolate en leche"> Chocolate en leche
+</label>
+
+<label class="option">
+  <input type="checkbox" name="bebida" value="Aguapanela"> Aguapanela
+</label>
+
+<label class="option">
+  <input type="checkbox" name="bebida" value="Aromática"> Aromática
+</label>
+
+
+
+
+<textarea id="observaciones"
+placeholder="Habitación y hora del desayuno"></textarea>
+
+
+<button class="green" onclick="enviarDesayuno()">
+Enviar pedido de desayuno
+</button>
+
+</section>
+
+<section>
+<h2>Minibar / Servicios</h2>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Agua $3.000"> Agua $3.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Gaseosa $4.000"> Gaseosa $4.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Jugo HIT $4.000"> Jugo HIT $4.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Cerveza $5.000"> Cerveza $5.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Snacks $1.500"> Snacks $1.500
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Tamal $4.000"> Tamal $4.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Cepillo dental $4.000"> Cepillo dental $4.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Crema dental $4.000"> Crema dental $4.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Desodorante $3.000"> Desodorante $3.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Preservativos $3.000"> Preservativos $3.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Lavandería $10.000"> Lavandería $10.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Late check-out $10.000"> Late check-out $10.000
+</label>
+
+<label class="option">
+  <input type="checkbox" name="minibar" value="Scanner / Fotocopias $500"> Scanner / Fotocopias $500
+</label>
+
+<button class="green" onclick="enviarMinibar()">
+  Enviar pedido de minibar
+</button>
+
+</button>
+</section>
+<section class="alert">
+<h2>Solicitud de transporte</h2>
+
+<ul>
+<li>Solicitar con <b>mínimo 1 hora de anticipación</b></li>
+<li>Indicar si el servicio es <b>dentro o fuera de la ciudad</b></li>
+<li>El conductor tendrá una <b>espera máxima de 10 minutos</b></li>
+<li>Si no se presenta el huésped, <b>la carrera será cobrada</b></li>
+</ul>
+<label>Día del recogida</label>
+<input type="date">
+<label>Hora de recogida</label>
+<input type="time">
+
+<label>Tipo de servicio</label><br>
+<label><input type="radio" name="zona"> Dentro de la ciudad</label><br>
+<label><input type="radio" name="zona"> Fuera de la ciudad</label>
+
+<textarea placeholder="Lugar de recogida, destino, observaciones"></textarea>
+
+<button class="green"
+onclick="window.open('https://wa.me/573136245136?text=Solicitud de TRANSPORTE - Gran Hotel Coral','_blank')">
+Solicitar transporte
+</button>
+</section>
+<section class="alert">
+<h2>Guía turístico</h2>
+
+<ul>
+<li>Solicitar con <b>mínimo 1 hora de anticipación</b></li>
+<li>Indicar <b>día y hora exacta</b></li>
+<li>El guía tendrá una <b>espera máxima de 10 minutos</b></li>
+<li>Si no se presenta el huésped, <b>el servicio se cobra</b></li>
+</ul>
+
+<label>Día del recorrido</label>
+<input type="date">
+
+<label>Hora de inicio</label>
+<input type="time">
+
+<textarea placeholder="Número de personas, lugar de salida, observaciones"></textarea>
+
+<button class="green"
+onclick="window.open('https://wa.me/573215059123?text=Solicitud GUÍA TURÍSTICO - Gran Hotel Coral','_blank')">
+Solicitar guía turístico
+</button>
+</section>
+<section>
+<h2>Reservas especiales / Salón de eventos</h2>
+
+<p>
+Para <b>reservas de platos a partir de 10 personas</b>  
+o <b>cotización del Salón de Eventos</b>, comuníquese con nosotros.
+</p>
+
+<textarea placeholder="Fecha, número de personas, tipo de evento o plato"></textarea>
+
+<button class="green"
+onclick="window.open('https://wa.me/573128141490?text=Solicitud RESERVA / SALÓN DE EVENTOS - Gran Hotel Coral','_blank')">
+Solicitar cotización
+</button>
+</section>
+
+<section>
+<h2>Facturación electrónica</h2>
+<p>Si requiere facturación electrónica, solicítela a administración.</p>
+<p><b>Adjuntar RUT de la empresa</b></p>
+
+<button class="gray"
+onclick="window.open('https://wa.me/573215059123?text=Requiero facturación electrónica. Adjunto RUT.','_blank')">
+Solicitar facturación electrónica
+</button>
+</section>
+
+<section>
+<button class="gray"
+onclick="window.open('https://www.google.com/search?q=turismo+Popayán+CaUca','_blank')">
+Conocer Popayán y el Cauca
+</button>
+</section>
+
+<script>
+function enviarMinibar() {
+  let items = [];
+  document.querySelectorAll('input[name="minibar"]:checked').forEach(el => {
+    items.push(el.value);
+  });
+
+  if (items.length === 0) {
+    alert("Por favor seleccione al menos un producto del minibar");
+    return;
+  }
+
+  let mensaje = "Pedido MINIBAR - Gran Hotel Coral:%0A" + items.join("%0A");
+  window.open("https://wa.me/573136245136?text=" + mensaje, "_blank");
+}
+</script>
+
+
+<script>
+function enviarMinibar() {
+  let seleccionados = [];
+  document.querySelectorAll('input[name="minibar"]:checked').forEach(item => {
+    seleccionados.push(item.value);
+  });
+
+  if (seleccionados.length === 0) {
+    alert("Seleccione al menos un producto del minibar");
+    return;
+  }
+
+  let mensaje = "Pedido MINIBAR - Gran Hotel Coral:%0A" + seleccionados.join("%0A");
+  window.open("https://wa.me/573136245136?text=" + mensaje, "_blank");
+}
+</script>
+
+<script>
+function enviarDesayuno() {
+  let seleccionados = [];
+  document.querySelectorAll('input[name="desayuno"]:checked').forEach(item => {
+    seleccionados.push(item.value);
+  });
+
+  if (seleccionados.length === 0) {
+    alert("Por favor seleccione al menos una opción de desayuno");
+    return;
+  }
+
+  let mensaje = "Pedido DESAYUNO - Gran Hotel Coral:%0A" + seleccionados.join("%0A");
+  window.open("https://wa.me/573136245136?text=" + mensaje, "_blank");
+}
+</script>
+
+<script>
+function enviarDesayuno() {
+
+  let d = [];
+  document.querySelectorAll('input[name="desayuno"]:checked')
+  .forEach(x => d.push(x.value));
+
+  if (d.length === 0) {
+    alert("Seleccione al menos un desayuno");
+    return;
+  }
+
+  let b = [];
+  document.querySelectorAll('input[name="bebida"]:checked')
+  .forEach(x => b.push(x.value));
+
+  let obs = document.getElementById("observaciones").value;
+
+  let msg = "Pedido DESAYUNO - Gran Hotel Coral:%0A";
+  msg += d.join("%0A");
+
+  if (b.length > 0) msg += "%0A%0ABebida:%0A" + b.join("%0A");
+  if (obs.trim() !== "") msg += "%0A%0AObs:%0A" + obs;
+
+  window.open("https://wa.me/573136245136?text=" + msg, "_blank");
+}
+</script>
+
+
+</body>
+</html>
